@@ -1,0 +1,29 @@
+@media(max-width: 1024px) {
+	.trust .item {
+	    width: 310px;
+	    height: 126px;
+	    background-color: black;
+	    color: #fff;
+	}
+}
+@media (min-width: 1440px) and (max-width: 1499px) {
+	.item{
+		margin: 50px 10px 0  10px;
+   	}
+}
+@media (min-width: 1500px) and (max-width: 1980px) {
+	.item{
+		margin: 50px 70px 0  70px;
+   	}
+}
+@media (min-width: 1981px) {
+	.items{
+		justify-content: center;
+	}
+	.trust .items{
+		justify-content: center;
+	}
+	.item{
+   		margin-left: 150px;
+   		margin-right: 150px;
+}

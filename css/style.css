@@ -1,0 +1,243 @@
+.wrapper{
+    background-color: #0c0a0a;
+    font-family: Roboto-Light;
+}
+.order{
+    font-family: Roboto-Light;
+    border: 3px solid #fff;
+    padding: 6px 50px;
+    font-size: 16px;
+    color: #fff;
+}
+.order:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.header_text{
+    font-family: TTDrugs-Thin;
+    line-height: 48px;
+}
+.wrapper{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+}
+.items{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url("../img/header_bg.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding-top: 84px;
+    text-align: center;
+    
+}
+.top_head{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+}
+header h1{
+    margin-top: 15vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#goodworker{
+    font-family: Roboto-Regular;
+    background-color: #0c0a0a;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+}
+#goodworker h1{
+ vertical-align:middle
+}
+.mail{
+    color: #fff;
+}
+.arrow_down{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.item{
+    width: 360px;
+    height: 360px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    margin:40px 0 0  0;
+}
+.service h1{
+    font-family: Roboto-Medium;
+    font-size: 26px;
+    letter-spacing: 100;
+}
+.service{
+    background-color: #0f1014;
+    padding-bottom: 110px;
+    padding-top: 70px;
+}
+.service .item {
+    font-family: Roboto-Regular;
+}
+.service .items img{
+    width: 200px;
+    vertical-align: middle;
+    height: 200px;
+    margin-top: 18px;
+
+}
+.hide{
+    display: none;
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: none;
+}
+.trust{  
+    font-family: Roboto-Light;
+    font-size: 20px;
+    text-align: center;
+    color: #Fff;
+    background-color: #0c0a0a;
+}
+.trust h1{
+    font-size: 35px;
+    font-family: Roboto-Thin; 
+    margin: 0;
+    padding-top: 50px;
+}
+.trust h2{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Roboto-Bold;
+}
+.trust .items{
+    background-color: #0c0a0a;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;    
+}
+.trust .item{
+    background-color: #0c0a0a;
+    width: 352px; 
+    height: 126px;
+    color: #fff;
+}
+.trust .button{
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-bottom: 40px;
+}
+#form{
+    font-family: Roboto-Regular;
+    color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 26px;
+    background-color: #0f1014;
+}
+#form .item{
+    background-color: #0f1014;
+    text-align: left;
+    width: 750px;
+    height: 130px;
+    margin: 0;
+}
+#form h1{
+    font-family: Roboto-Medium;
+    font-size: 35px;
+}
+#form form{
+    background-color: #0f1014;
+    color: #fff;
+    margin: 0 auto;
+}
+#form h1{
+    font-size: 26px;
+}
+input{
+    display: block;
+    color: #fff;
+    border: 3px solid black;
+    height: 50px;
+    width: 717px;
+    color: black;
+    font-size: 20px;
+    padding-left: 25px;
+}
+label{
+    display: block;
+    color: #fff;
+}
+input[type="button"]{
+    border: 3px solid #fff;
+    padding: 6px 50px;
+    font-size: 16px;
+    color: #fff;    
+    background-color: black;
+    width: 210px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.multi a{
+    color: white;
+}
