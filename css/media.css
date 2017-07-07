@@ -2,6 +2,15 @@
 	.top_head{
 		font-size: 20px;
 	}
+	.hide{
+		font-size: 25px;
+	}
+	.trust .item{
+		font-size: 20px;
+	}
+	.mail{
+		font-size: 20px;
+	}
 }
 @media(max-width: 1024px) {
 	.trust .item {
