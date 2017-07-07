@@ -1,8 +1,13 @@
+@media(max-width: 500){
+	.top_head{
+		font-size: 20px;
+	}
+}
 @media(max-width: 1024px) {
 	.trust .item {
 	    width: 310px;
 	    height: 126px;
-	    background-color: black;
+	    background-color: #0c0a0a;
 	    color: #fff;
 	}
 }
