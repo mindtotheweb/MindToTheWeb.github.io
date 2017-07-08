@@ -1,15 +1,55 @@
 @media screen and (max-width: 600px) {
-	.top_head{
-		font-size: 20px;
-	}
-	.hide{
+	h1{
 		font-size: 25px;
 	}
-	.trust .item{
-		font-size: 20px;
-	}
 	.mail{
-		font-size: 20px;
+		display: none;
+	}
+
+}
+@media screen and (max-width: 415px) {
+	h1{
+		font-size: 16px;
+	}
+	input {
+		width: 80%;
+	}
+	#form .item {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	input {
+		width: 80%;
+	}
+	#form .item {
+		width: 100%;
+	}
+	.service .items img {
+		height: 150px
+	}
+	.item{
+		width: 300px;
+  	    height: 300px;
+	}
+	h1{
+		font-size: 16px;
+	}
+	h2{
+    	font-size: 20px;
+	}
+	.button{
+	    margin-top: 36px;
+	}
+	.arrow_down{
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.top_head{
+		font-size: 16px;
 	}
 }
 @media (max-width: 1024px) {

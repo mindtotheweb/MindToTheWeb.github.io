@@ -105,7 +105,7 @@ header h1{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 30vh;
+    height: 200px;
 }
 #goodworker h1{
  vertical-align:middle
@@ -159,7 +159,7 @@ header h1{
     margin: 0 auto;
     width: 260px;
     height: 260px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     text-align: center;
     text-transform: none;
@@ -273,6 +273,9 @@ input[type="button"]{
     height: 40px;
     margin: 0 auto;
     margin-top: 40px;
+}
+.multi{
+    width: 50px;
 }
 .multi a{
     color: white;
