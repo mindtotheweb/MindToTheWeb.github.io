@@ -32,12 +32,16 @@
 }
 @media (min-width: 1981px) {
 	.items{
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.trust .items{
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 	.item{
    		margin-left: 150px;
    		margin-right: 150px;
-}
+}}
