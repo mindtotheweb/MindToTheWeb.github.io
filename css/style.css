@@ -273,6 +273,7 @@ input[type="button"]{
     height: 40px;
     margin: 0 auto;
     margin-top: 40px;
+-webkit-appearance: none;
 }
 .multi{
     width: 50px;
