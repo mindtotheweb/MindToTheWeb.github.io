@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<staticContent><mimeMap fileExtension=".svg" mimeType="image/svg+xml" /></staticContent>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -75,7 +74,7 @@
              id="tspan10"
              x="26.458332"
              y="114.05952"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';stroke-width:0.26458332">OTHER</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.16666603px;font-family:Roboto;-inkscape-font-specification:'Roboto-Bold';stroke-width:0.26458332">OTHER</tspan></text>
       </g>
     </g>
   </g>
