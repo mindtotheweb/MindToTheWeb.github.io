@@ -262,7 +262,7 @@ label{
     display: block;
     color: #fff;
 }
-input[type="button"]{
+input[type="submit"]{
     margin: 0 auto;
     border: 3px solid #fff;
     padding: 6px 50px;

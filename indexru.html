@@ -7,6 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
+	<script src="js/jquery-2.1.1.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -107,24 +109,55 @@
 	</div>
 	<div id="form">
 				<h1>Заполните форму и я с вами свяжусь</h1>
-				<form class="flex">
+				<form class="flex" action="javascript:void(null);" method="post" onsubmit="check()" id="forma">
 					<div class="item">
-						<label id="name" name="name" for="name">Имя</label> <br>
-						<input type="text" name="name">
+						<label id="name" name="namel" for="name">Name</label> <br>
+						<input type="text" name="name" id="userName">
 					</div>
 					<div class="item">
-						<label id="name" name="tel" for="tel">Телефон</label> <br>
-						<input type="tel" name="tel">
+						<label id="name" name="tell" for="tel">Phone</label> <br>
+						<input type="tel" name="phone">
 					</div>	
 					<div class="item">
-						<label id="name" name="mail" for="mail">E-mail</label> <br>
-						<input type="mail" name="mail">
+						<label id="name" name="maill" for="mail">E-mail</label> <br>
+						<input type="mail" name="mail" id="userMail">
 					</div>
-					<input type="button" name="button" class="order" value="ЗАКАЗАТЬ">
+					<input type="submit" name="button" class="order" value="Заказать">
 				</form>
 	</div>	
 </div>	
-<script src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript">
+		    function isValidEmailAddress(emailAddress) {
+    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    return pattern.test(emailAddress);
+    }
+		function check() {
+			var userName = document.getElementById("userName");
+			var userMail = document.getElementById("userMail");
+			userName.style.border = 'none';
+			userMail.style.border = 'none';
+			if (!userName.value) {
+				userName.style.border = '2px solid red'
+				return false;
+			}
+			if (isValidEmailAddress(userMail.value) == false) {
+				userMail.style.border = '2px solid red'
+				return false;
+			}
+    var msg  = $('#forma').serialize();
+        $.ajax({
+          type: 'POST',
+          url: 'res.php',
+          data: msg,
+          success: function(data) {
+           	alert("Отправлено")
+          },
+          error:  function(xhr, str){
+	    alert('Error ' + xhr.responseCode);
+          }
+        });
+		}
+		</script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
