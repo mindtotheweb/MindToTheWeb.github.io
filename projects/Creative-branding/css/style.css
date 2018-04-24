@@ -1,0 +1,286 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
+@keyframes bounce-fade {
+  0% {
+    opacity: 0;
+    margin-top: -70px; }
+  100% {
+    opacity: 1; } }
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 99999; }
+  .preloader .pre {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px; }
+
+html, body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  font-weight: 400;
+  height: 100%; }
+
+header {
+  background: url("../img/background/start-page.jpg") #c0c0c0 bottom center fixed no-repeat;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  color: #fff; }
+  header h1 {
+    font-size: 34px;
+    text-transform: uppercase; }
+  header hr {
+    color: #fff;
+    width: 105px;
+    margin-top: 30px; }
+  header h6 {
+    font-size: 14px;
+    margin-top: 30px; }
+  header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    right: 40%; }
+  header .cont {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+      right-height: 520px; }
+  header .header_arrowDown {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    right: 40%;
+    animation: bounce-fade 1.2s infinite; }
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  color: #3c3c3c;
+  z-index: 100; }
+  nav .nav_logo {
+    font-size: 26px;
+    font-weight: bold; }
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px; }
+    nav ul li a {
+      margin: 0px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #3c3c3c; }
+    nav ul li a.scroll {
+      color: #ada074; }
+    nav ul li a:hover {
+      color: #ada074; }
+
+.about {
+  margin: 50px 0; }
+  .about h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 34px; }
+  .about hr {
+    color: #fff;
+    width: 105px;
+    margin-top: 30px; }
+  .about h6 {
+    font-size: 14px;
+    text-align: center;
+    color: #b0b0b0; }
+  .about .about_items {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+    .about .about_items .about_item {
+      text-align: center;
+      width: 25%;
+      height: 200px;
+      position: repeat; }
+      .about .about_items .about_item h2 {
+        margin-top: 25px;
+        font-size: 26px; }
+      .about .about_items .about_item p {
+        line-height: 25px;
+        color: #b0b0b0; }
+      .about .about_items .about_item img:hover {
+        border: 1px solid #ada074;
+        border-radius: 50%;
+        padding: 10px;
+        width: 80px; }
+
+.portfolio h1 {
+  text-align: center;
+  font-size: 34px;
+  text-transform: uppercase; }
+
+.portfolio hr {
+  color: #fff;
+  width: 105px;
+  margin-top: 30px; }
+
+.portfolio ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto; }
+  .portfolio ul li {
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    position: relative; }
+    .portfolio ul li .text {
+      display: none;
+      position: absolute;
+      left: 30%;
+      top: 30px; }
+      .portfolio ul li .text h5 {
+        font-size: 18px;
+        color: #000000;
+        text-transform: uppercase; }
+      .portfolio ul li .text p {
+        margin-top: 20px;
+        text-transform: none; }
+  .portfolio ul li:hover .text {
+    display: block; }
+
+.portfolio a.button {
+  display: block;
+  border: 1px solid #000000;
+  font-size: 16px;
+  color: #000;
+  padding: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto;
+  width: 180px;
+  height: 22px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.partners {
+  background-color: #444;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .partners h2 {
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px; }
+  .partners ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px; }
+    .partners ul li {
+      list-style-type: none;
+      display: inline-block;
+      opacity: 0.5; }
+    .partners ul li:hover {
+      opacity: 1; }
+
+.contact {
+  position: relative;
+  margin: 90px 0; }
+  .contact .flex {
+    display: flex;
+    justify-content: space-around; }
+    .contact .flex ul li {
+      list-style-type: none;
+      margin: 20px 0; }
+      .contact .flex ul li .bold {
+        font-weight: bold; }
+  .contact h1 {
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase; }
+  .contact hr {
+    color: #fff;
+    width: 105px;
+    margin-top: 30px; }
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold; }
+    .contact form input {
+      border: none;
+      border-bottom: 1px solid;
+      width: 160px;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      color: #000000;
+      font-size: 14px;
+      outline: none; }
+    .contact form input::-webkit-input-placeholder {
+      color: #000; }
+    .contact form input[type="button"] {
+      background-color: #fff;
+      border: none;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-weight: bold;
+        font-weight-outline: none; }
+    .contact form textarea {
+      border: none;
+      border-bottom: 1px solid;
+      width: 320px;
+      padding: 20px 0;
+      text-transform: uppercase;
+      color: #000000;
+      background-color: #fff;
+      font-size: 14px;
+      resize: none;
+      outline: none; }
+    .contact form textarea::-webkit-input-placeholder {
+      color: #000; }
+
+footer {
+  background-color: #3c3c3c;
+  position: relative;
+  height: 270px; }
+  footer .logo {
+    position: absolute;
+    top: 15px;
+    right: 45%;
+    left: 45%; }
+  footer ul {
+    text-align: center;
+    padding-top: 150px; }
+    footer ul li {
+      list-style-type: none;
+      display: inline-block; }
+      footer ul li a {
+        text-decoration: none;
+        color: #909090;
+        font-size: 14px; }
+  footer .copyright {
+    text-align: center;
+    color: #909090;
+    font-size: 14px;
+    margin-top: 38px; }
