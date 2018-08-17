@@ -1,0 +1,252 @@
+body, html {
+    height: 100%;
+}
+.button{
+    border: 4px solid #fff;
+    background-color: #2f91cf;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    width: 275px;
+    display: inline-block;
+}
+h3{
+	font-size: 42px;
+	color: #2b8fce;
+	text-align: center;
+    margin: 20px 0;
+}
+header{
+	text-align: center;
+	background-image: url('img/bg_header.png');
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .phones{
+	color: #e98328;
+	font-size: 23px;
+}
+header .logo{
+	color: #f83668;
+	font-size: 40px;
+}
+header h3{
+	font-size: 48px;
+	color: #fff;
+}
+header h3 span.logo{
+	font-size: 50px;
+}
+header h4{
+	color: #2b8fce;
+	font-size: 45px;
+	margin-top: -45px;
+}
+.us{
+	text-align: center;
+	font-size: 21px;
+	color: #fff;
+	background-image: url('img/bg_us.png');
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rule{
+	background-image: url('img/bg_rule.png');
+	min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #fff;
+	font-size: 24px;
+}
+.rule ul li{
+	list-style-type: none;
+     margin: 15px 0;
+}
+.rule ul li p {
+    margin-left: 70px;
+    margin-right: 100px;
+    color: #fe7800;
+     display: none;
+}
+.rule a{
+	text-align: right;
+	color: #fff;
+}
+.price{
+
+}
+.price .button{
+    padding: 2px 47px;
+    display: inline-block;
+}
+.price img{
+    width: 100%;
+    border: 4px solid #fff;
+    height: 100%;
+    border-radius: 5px;
+}
+.price h4{
+	font-size: 28px;
+	color: #e98328;
+     margin-top: 20px;
+}
+.price p{
+	font-size: 18px;
+	color: #fff;
+	font-style: italic;
+}
+.price .block_dog{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.price .block_1{
+	background-image: url('img/price_bg_1.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.price .block_2{
+	background-image: url('img/price_bg_2.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.price .block_3{
+	background-image: url('img/price_bg_3.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.price .block_4{
+	background-image: url('img/price_bg_4.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+.price .right{
+	text-align: right;
+	position: relative;
+}
+.price .right .button {
+    padding: 1px 47px;
+    position: absolute;
+    right: 0;
+}
+.room{
+	background-image: url('img/bg_room.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.room img{
+	border: 4px solid #2f91cf;
+	border-radius: 5px; 
+}
+.room .blocks_room{
+      margin-top: 40px;
+    padding-bottom: 40px;
+}
+.room .block_room{
+	margin-top: -52px;
+}
+.grum{
+	background-image: url('img/bg_grum.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+.grum h3{
+	color: #fff;
+}
+.grum ul li {
+	list-style-type: none;
+	font-size: 28px;
+	color: #fff;
+}
+.grum h2{
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	margin-top: 60px;
+}
+.grum a.button{    
+    text-align: center;
+    margin: 58px auto;
+    display: block;
+    width: 300px;
+    padding: 2px 0 45px 0;
+    font-size: 28px;
+}
+.contact{
+	background-image: url('img/bg_contact.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    color: #fff;
+    font-size: 23px;
+    font-style: italic;
+}
+.contact .color{
+	color: #2b8fce;
+    font-style: normal;
+    font-weight: bold;
+}
+.contact h3{
+    font-style: normal;
+     margin: 20px 0;
+}
+
+.slickSlider{
+    width: 100%;
+    height: 100%;
+     margin-bottom: 35px;
+}
+.slickSlider img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: all 300ms ease;
+    padding: 30px;
+    margin-top: 0;
+
+}
+.slick-center img{
+    opacity: 1;
+    padding: 0 0;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    border: 3px solid #fff;
+}
+.gallery{
+	background-image: url('img/bg_gallary.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
