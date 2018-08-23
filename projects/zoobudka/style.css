@@ -163,6 +163,7 @@ header h4{
 .room img{
 	border: 4px solid #2f91cf;
 	border-radius: 5px; 
+    width: 100%;
 }
 .room .blocks_room{
       margin-top: 40px;
